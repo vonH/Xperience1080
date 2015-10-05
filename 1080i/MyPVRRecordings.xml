@@ -52,12 +52,23 @@
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
-                        <control type="textbox">
-                            <description>Plot</description>
+                            <control type="image">
                             <posx>30</posx>
                             <posy>78</posy>
                             <width>516</width>
-                            <height>505</height>
+                            <height>230</height>
+                            <aspectratio aligny="bottom">keep</aspectratio>
+                            <fadetime>IconCrossfadeTime</fadetime>
+                            <texture fallback="DefaultVideoCover.png">$INFO[Container(50).ListItem.Icon]</texture>
+                            <bordertexture>windows/common/darkgrey.png</bordertexture>
+                            <bordersize>1</bordersize>
+                        </control>                        
+                        <control type="textbox">
+                            <description>Plot</description>
+                            <posx>30</posx>
+                            <posy>308</posy>
+                            <width>516</width>
+                            <height>275</height>
                             <info>Container(50).ListItem.Plot</info>
                             <align>justify</align>
                             <textcolor>aawhite</textcolor>
