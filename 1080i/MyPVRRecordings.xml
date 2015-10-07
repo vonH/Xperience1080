@@ -52,7 +52,7 @@
                             <shadowcolor>22000000</shadowcolor>
                             <scroll>false</scroll>
                         </control>
-                            <control type="image">
+                            <control type="image" id="123">
                             <posx>30</posx>
                             <posy>78</posy>
                             <width>516</width>
@@ -62,9 +62,10 @@
                             <texture fallback="DefaultVideoCover.png">$INFO[Container(50).ListItem.Icon]</texture>
                             <bordertexture>windows/common/darkgrey.png</bordertexture>
                             <bordersize>1</bordersize>
-                        </control>                        
+                            <visible>!SubString(Control.GetLabel(123),DefaultVideo)</visible>
+                        </control>
                         <control type="textbox">
-                            <description>Plot</description>
+                            <description>Plot with preview image</description>
                             <posx>30</posx>
                             <posy>308</posy>
                             <width>516</width>
@@ -76,10 +77,26 @@
                             <pagecontrol>71</pagecontrol>
                             <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71)</autoscroll>
                             <font>Font-Condensed-S34</font>
-                            <visible>!IsEmpty(Container(50).ListItem.Plot)</visible>
+                            <visible>!IsEmpty(Container(50).ListItem.Plot) + !SubString(Control.GetLabel(123),DefaultVideo)</visible>
                             <include>visiblehidefadeinfo</include>
                         </control>
-						<control type="label">
+                        <control type="textbox">
+                            <description>Plot without preview image</description>
+                            <posx>30</posx>
+                            <posy>78</posy>
+                            <width>516</width>
+                            <height>505</height>
+                            <info>Container(50).ListItem.Plot</info>
+                            <align>justify</align>
+                            <textcolor>aawhite</textcolor>
+                            <shadowcolor>33000000</shadowcolor>
+                            <pagecontrol>71</pagecontrol>
+                            <autoscroll delay="13000" time="3000" repeat="13000">!Control.HasFocus(71)</autoscroll>
+                            <font>Font-Condensed-S34</font>
+                            <visible>!IsEmpty(Container(50).ListItem.Plot) + SubString(Control.GetLabel(123),DefaultVideo)</visible>
+                            <include>visiblehidefadeinfo</include>
+                        </control>
+                            <control type="label">
                             <description>Empty Plot</description>
                             <visible>IsEmpty(Container(50).ListItem.Plot)</visible>
                             <posx>30</posx>
