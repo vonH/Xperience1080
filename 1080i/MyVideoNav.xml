@@ -53,6 +53,20 @@
                     <ondown>9111</ondown>
                     <onback>50</onback>
                     <include>GeneralOptionsAnimations</include>
+                    <control type="radiobutton" id="23">
+                        <description>Unlock sources radiobutton</description>
+                        <include>optionsbuttonsdimensions</include>
+                        <label>20336</label>
+                        <texturefocus border="2">dialogs/options/buttons/default-fo.png</texturefocus>
+                        <textureradioon>buttons/radio/options-radio-button-fo.png</textureradioon>
+                        <textureradiooff>buttons/radio/options-radio-button-nf.png</textureradiooff>
+                        <radioposx>-19</radioposx>
+                        <selected>system.ismaster</selected>
+                        <onclick>SetFocus(50)</onclick>
+                        <onclick>mastermode</onclick>
+                        <animation effect="fade" start="100" end="50" time="0" condition="!Control.IsEnabled(98)">Conditional</animation>
+                        <visible>system.haslocks</visible>
+                    </control>
                     <control type="button" id="34">
                         <description>Go to playlist</description>
                         <include>optionsbuttonsdimensions</include>
