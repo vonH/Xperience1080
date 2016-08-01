@@ -5546,25 +5546,13 @@
                             <item id="1">
                                 <label>$LOCALIZE[480]</label>
                                 <icon>windows/home/icons/appearance.png</icon>
-                                <onclick>ActivateWindow(appearancesettings)</onclick>
+                                <onclick>ActivateWindow(InterfaceSettings)</onclick>
                                 <property name="pos">top</property>
                             </item>
                             <item id="2">
                                 <label>$LOCALIZE[157]</label>
                                 <icon>windows/home/icons/video.png</icon>
-                                <onclick>ActivateWindow(videossettings)</onclick>
-                                <property name="pos">top</property>
-                            </item>
-                            <item id="3">
-                                <label>$LOCALIZE[2]</label>
-                                <icon>windows/home/icons/music.png</icon>
-                                <onclick>ActivateWindow(musicsettings)</onclick>
-                                <property name="pos">top</property>
-                            </item>
-                            <item id="4">
-                                <label>$LOCALIZE[1]</label>
-                                <icon>windows/home/icons/pictures.png</icon>
-                                <onclick>ActivateWindow(picturessettings)</onclick>
+                                <onclick>ActivateWindow(PlayerSettings)</onclick>
                                 <property name="pos">top</property>
                             </item>
                             <item id="5">

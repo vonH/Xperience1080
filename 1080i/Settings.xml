@@ -5,7 +5,7 @@
     <controls>
         <include>CommonSettingsItems</include>
         <include>SettingsHeader</include>
-        
+
         <control type="group">
             <include>FullscreenDimensions</include>
             <include>OptionsShutdownAnimation</include>
@@ -23,7 +23,7 @@
                 <effect type="zoom" start="100" end="85" time="300" center="960,600" tween="sine" easing="out" />
             </animation>
             <visible>!Window.IsActive(favourites)</visible>
-            
+
             <control type="image">
                 <description>Shadow</description>
                 <posx>0</posx>
@@ -37,7 +37,7 @@
                     <effect type="zoom" start="90" end="100" center="316,547" tween="cubic" easing="out" time="400" />
                 </animation>
             </control>
-            
+
             <control type="group">
                 <posx>190</posx>
                 <posy>295</posy>
@@ -62,7 +62,7 @@
                         <onright>102</onright>
                         <onup>101</onup>
                         <ondown>101</ondown>
-                        <onclick>ActivateWindow(appearancesettings)</onclick>
+                        <onclick>ActivateWindow(InterfaceSettings)</onclick>
                         <texturefocus>windows/home/icons/appearance.png</texturefocus>
                         <texturenofocus>windows/home/icons/appearance.png</texturenofocus>
                     </control>
@@ -90,7 +90,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>442</posx>
                 <posy>295</posy>
@@ -115,7 +115,7 @@
                         <onright>104</onright>
                         <onup>103</onup>
                         <ondown>103</ondown>
-                        <onclick>ActivateWindow(videossettings)</onclick>
+                        <onclick>ActivateWindow(PlayerSettings)</onclick>
                         <texturefocus>windows/home/icons/video.png</texturefocus>
                         <texturenofocus>windows/home/icons/video.png</texturenofocus>
                     </control>
@@ -143,7 +143,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>694</posx>
                 <posy>295</posy>
@@ -196,7 +196,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>946</posx>
                 <posy>295</posy>
@@ -249,7 +249,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>1198</posx>
                 <posy>295</posy>
@@ -302,7 +302,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>1450</posx>
                 <posy>295</posy>
@@ -355,7 +355,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>190</posx>
                 <posy>295</posy>
@@ -376,7 +376,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>442</posx>
                 <posy>295</posy>
@@ -397,7 +397,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>694</posx>
                 <posy>295</posy>
@@ -418,7 +418,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>946</posx>
                 <posy>295</posy>
@@ -439,7 +439,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>1198</posx>
                 <posy>295</posy>
@@ -460,7 +460,7 @@
                     </control>
                 </control>
             </control>
-            
+
             <control type="group">
                 <posx>1450</posx>
                 <posy>295</posy>
@@ -481,7 +481,7 @@
                     </control>
                 </control>
             </control>
-            
+
         </control>
         <include>Common-Info-NoOptions</include>
     </controls>
