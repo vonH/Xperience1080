@@ -2,5 +2,17 @@
 <window>
     <defaultcontrol>-</defaultcontrol>
     <controls>
+        <control type="group" id="0">
+            <control type="label" id="10">
+                <description>row 1 label</description>
+                <posx>130</posx>
+                <posy>20</posy>
+                <width>auto</width>
+                <height>90</height>
+                <textcolor>bbwhite</textcolor>
+                <font>Font-Condensed-S29-B</font>
+                <label>-</label>
+            </control>
+        </control>
     </controls>
 </window>
