@@ -425,7 +425,7 @@
                         <height>98</height>
                         <font>Font-Condensed-S36</font>
                         <align>left</align>
-                        <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
+                        <label>$INFO[ListItem.Season]$VAR[ListItem.Episode]</label>
                         <selectedcolor>SelectedColor</selectedcolor>
                         <textcolor>aawhite</textcolor>
                         <scroll>false</scroll>
@@ -921,7 +921,7 @@
                             <height>98</height>
                             <font>Font-Condensed-S36</font>
                             <align>left</align>
-                            <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
+                            <label>$INFO[ListItem.Season]$VAR[ListItem.Episode]</label>
                             <selectedcolor>SelectedColor</selectedcolor>
                             <textcolor>eewhite</textcolor>
                             <scroll>false</scroll>
@@ -1572,7 +1572,7 @@
                             <height>58</height>
                             <width>70</width>
                             <font>Font-Condensed-S31</font>
-                            <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
+                            <label>$INFO[ListItem.Season]$VAR[ListItem.Episode]</label>
                             <selectedcolor>SelectedColor</selectedcolor>
                             <textcolor>77white</textcolor>
                             <shadowcolor>22000000</shadowcolor>
@@ -1950,7 +1950,7 @@
                                 <height>58</height>
                                 <width>70</width>
                                 <font>Font-Condensed-S31</font>
-                                <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
+                                <label>$INFO[ListItem.Season]$VAR[ListItem.Episode]</label>
                                 <selectedcolor>SelectedColor</selectedcolor>
                                 <textcolor>eewhite</textcolor>
                                 <shadowcolor>22000000</shadowcolor>
@@ -5224,7 +5224,7 @@
                             <posy>0</posy>
                             <width>100</width>
                             <height>62</height>
-                            <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
+                            <label>$INFO[ListItem.Season]$VAR[ListItem.Episode]</label>
                             <font>Font-Condensed-S36</font>
                             <selectedcolor>SelectedColor</selectedcolor>
                             <textcolor>77white</textcolor>
@@ -5609,7 +5609,7 @@
                                 <posx>0</posx>
                                 <posy>4</posy>
                                 <width>100</width>
-                                <label>$VAR[ListItem.Season]$VAR[ListItem.Episode]</label>
+                                <label>$INFO[ListItem.Season]$VAR[ListItem.Episode]</label>
                                 <font>Font-Condensed-S36</font>
                                 <textcolor>FF484848</textcolor>
                                 <scroll>false</scroll>
